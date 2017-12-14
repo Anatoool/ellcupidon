@@ -1,0 +1,36 @@
+Host: https://ellcupidon.ru
+
+User-agent: Yandex
+Disallow: /blocks/
+Disallow: /fonts/
+Disallow: /functions/
+Disallow: /img/
+Disallow: /moderation/
+Disallow: /unitegallery/
+Disallow: /js/
+Disallow: /addproject
+Disallow: /moderation7815318220
+
+User-agent: Googlebot
+Disallow: /blocks/
+Disallow: /fonts/
+Disallow: /functions/
+Disallow: /img/
+Disallow: /moderation/
+Disallow: /unitegallery/
+Disallow: /js/
+Disallow: /addproject
+Disallow: /moderation7815318220
+
+User-agent: *
+Disallow: /blocks/
+Disallow: /fonts/
+Disallow: /functions/
+Disallow: /img/
+Disallow: /moderation/
+Disallow: /unitegallery/
+Disallow: /js/
+Disallow: /addproject
+Disallow: /moderation7815318220
+
+

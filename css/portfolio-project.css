@@ -1,0 +1,111 @@
+#gallery {
+	margin: auto !important;
+	margin-top: 110px !important;
+	max-width: 900px !important;
+	width: 100% !iportant;
+}
+
+.ug-strip-panel {
+	background: rgba(0, 0, 0, 0.2) !important;
+}
+
+.ug-item-wrapper {
+	background: #aaaaaa !important;
+	
+}
+
+@media screen and (min-width: 900px) {
+    #gallery {
+		margin-right: 3%;
+		margin-left: 3%;
+	}
+}
+
+
+
+.text-container {
+	float: left;
+}
+
+.project-caption {
+	text-align: center;
+	color: #464646;
+	font-family: verdana, tahoma, arial;
+	font-size: 1.3em;
+	margin: auto;
+	margin-top: 20px;
+	font-weight: normal;
+	border-bottom: solid 1px #959595;
+	padding-bottom: 5px;
+	max-width: 400px;
+}
+
+.project-description {
+	text-indent: 30px;
+	width: 85%;
+	color: #2e2e2e;
+	margin: auto;
+	margin-top: 18px;
+	font-family: Georgia, MS Serif;	
+	font-size: 1.2em;
+	text-align: center;
+}
+
+.container {
+    position: relative;
+    min-height: 100%;
+	position: absolute;
+}
+ 
+html, body {
+	min-height: 100%;
+	position: absolute;
+	width: 100%;
+}
+
+.content {
+	float: left;
+	min-height: 100%;
+    padding-bottom: 84px; /* Значение должно равняться высоте нашего футера */
+	float: left;
+	width: 100%;
+}
+
+.text-container {
+	width: 100%;
+	text-align: center;
+}
+ 
+#footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+	
+	#gallery {
+		margin-top: 93px !important;
+	}
+	
+	.project-caption {
+		font-size: 1.1em;
+		max-width: 300px;
+	}
+	
+	.project-description {
+		font-size: 1em;
+	}
+	
+	.content {
+		float: left;
+		min-height: 100%;
+		padding-bottom: 55px; /* Значение должно равняться высоте нашего футера */
+		float: left;
+	}
+}
+
+
+
+

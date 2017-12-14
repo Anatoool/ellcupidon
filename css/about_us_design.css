@@ -1,0 +1,74 @@
+#about_us_container {
+	background: url(../img/about_us_bg.png);
+	box-shadow: 0 0 9px rgba(0,0,0,0.5);
+	position: relative;
+}
+
+#map {
+	width: 90%;
+	margin: auto;
+}
+
+iframe {
+	width: 85%;
+	margin: auto;
+	max-width: 1200px;
+	border: solid 2px #8e8e8e !important;
+}
+
+#about-us-caption {
+	line-height: 60px;
+	color: #5c5c5c;
+	font-family: verdana, tahoma;
+	font-size: 1.6em;
+	font-weight: normal;
+}
+
+#email {
+	color: #525252;
+	margin: auto;
+	display: inline-block;
+	margin-top: 10px;
+}
+
+#email i {
+	background: url(../img/email-logo.png);
+	display: block;
+	width: 24px;
+	height: 24px;
+	float: left;
+	margin-right: 5px;
+}
+
+#email-text {
+	line-height: 24px;
+	margin: auto;
+	font-size: 1em;
+}
+
+#order-notification {
+	color: #525252;
+	margin-top: 10px;
+	max-width: 90%;
+	text-align: center;
+	margin: auto;
+	margin-bottom: 6px;
+	font-size: 1em;
+}
+
+@media screen and (max-width: 600px) {
+	
+	#about-us-caption {
+		font-size: 1.4em;
+		line-height: 54px;
+	}
+
+   #email {
+		font-size: 0.9em;
+	}
+
+	#order-notification {
+		font-size: 0.9em;
+		line-height: 1.4em;
+	}
+}

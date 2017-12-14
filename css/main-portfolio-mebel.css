@@ -1,0 +1,384 @@
+#main-portfolio {
+	color: #000000;
+	background: url(../img/main-portfolio-bg.png);
+	height: 640px;
+	box-shadow: 0 0 9px rgba(0,0,0,0.5);
+	position: relative;
+}
+
+.top-wrapper {
+	max-width: 1600px;
+	position: relative;
+	margin: auto;
+}
+
+
+#main-portfolio-caption {
+	color: #df8463;
+	width: 60%;
+	left: 10%;
+	position: absolute;
+	font-family: Verdana, Tahoma;
+	float: left;
+	font-size: 1.5em;
+	top: 32px;
+	text-align: left;
+}
+
+
+#more-works {
+	line-height: 40px;
+	position: absolute;
+	min-width: 130px;
+	background: #568fbe;
+	float: right;
+	top: 32px;
+	right: 10%;
+	border-radius: 3px;
+}
+
+#more-works:hover {
+	background: #f98561;
+	color: #f9f5d2;
+	box-shadow: inset 0px 0px 5px rgba(0,0,0,0.4);
+}
+
+#more-works a {
+	padding-left: 10px;
+	padding-right: 10px;
+	width: 100%;
+	height: 100%;
+	display: block;
+	color: #ffffff;
+	font-size: 1.1em;
+	text-decoration: none;
+}
+
+.mp-works {
+	width: 80%;
+	height: 240px;
+	margin: auto;
+	position: relative;
+	margin-top: 100px;
+	max-width: 1280px;
+}
+
+.mp-works:last-child {
+	margin-top: 35px;
+}
+
+.mp-work {
+	border: solid 8px #ffffff;
+	height: 230px;
+	overflow: hidden;
+	position: absolute;
+}
+
+.black-hover {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.5);
+	z-index: 100;
+	display: none;
+	top: 0px;
+}
+
+.details {
+	width: 60%;
+	max-width: 140px;
+	min-width: 125px;
+	height: 40px;
+	border: solid 2px #e8e8e8;
+	border-radius: 4px;
+	margin: auto;
+	margin-top: 90px;	
+}
+
+.details i {
+	display: block;
+	width: 36px;
+	height: 22px;
+	background: url(../img/details-eye.png);
+	margin-top: 6px;
+	float: left;
+	margin-right: 8px;
+}
+
+.details-inner{
+	display: inline-block;
+	line-height: 36px;
+	color: #e8e8e8;
+	font-size: 1.1em;
+}
+
+.mp-work:hover .black-hover {
+	display: block;
+}
+
+.mp-work:hover .camera-hull {
+	display: none;
+}
+
+
+.mp-work img {
+	height: 130%;
+	width:  auto;
+	margin: auto;
+	position: relative;
+	bottom: 15%;
+}
+
+.mp-work:first-child {	
+	width: 26%;
+	float: left;
+}
+
+.mp-work:nth-child(2) {
+	width: 26%;
+	left: 37%;
+}
+
+.mp-work:last-child {
+	width: 26%;
+	right: 0;
+	float: right;
+}
+
+.mp-work img:hover {
+	background: rgba(0,0,0,0.6);
+	z-index: 10;
+}
+
+.camera-hull {
+	position: absolute;
+	top: 41%;
+	left: 37%;
+	width: 26%;
+	height: 18%;
+	background: #fff;
+	border-radius: 1px;
+	border-radius: 3px;	
+	max-width: 65px;
+}
+
+.shutter {
+	width: 20%;
+	height: 15%;
+	position: absolute;
+	top: -15%;
+	left: 10%;
+	background: #fff;
+	border-radius: 2px;
+}
+
+.lens-1 {
+	width: 20px;
+	height: 20px;
+	margin: auto;
+	background: #888888;
+	margin-top: 11px;
+	border-radius: 20px;
+}
+
+.lens-2 {
+	width: 12px;
+	height: 12px;
+	margin: auto;
+	background: #545454;
+	position: relative;
+	top: 4px;
+	border-radius: 12px;
+}
+
+.camera-hull, .shutter, .lens1, lens2 {
+opacity: 0.7;
+}
+
+@media screen and (max-width: 1400px) {
+    .mp-works {
+		width: 90%;
+	}	
+	
+	#more-works {
+		right: 5%;
+	}
+	
+	.mp-work:first-child, .mp-work:nth-child(2), .mp-work:last-child {
+		width: 30%;
+	}
+	
+	.mp-work:nth-child(2) {
+		left: 35%;
+	}
+	
+	#main-portfolio-caption {
+		left: 5%;
+	}
+}
+
+@media screen and (max-width: 1024px) {
+    .mp-work:last-child {
+		display: none;
+	}	
+	
+	.mp-work:first-child {
+		width: 40%;
+		left: 5%;
+	}
+	
+	.mp-work:nth-child(2){
+		width: 40%;
+		left: auto;
+		right: 5%;
+	}
+	
+	#more-works {
+		right: 10%;
+	}
+	
+	#more-works a {
+		font-size: 1em;
+	}
+	
+	#main-portfolio-caption {
+		left: 10%;
+		font-size: 1.2em;
+	}
+}
+
+
+@media screen and (max-width: 530px) {
+	 .mp-works {
+		width: 100%;
+	}	
+	
+      .mp-work:first-child {
+		width: 45%;
+		left: 3%;
+	}
+	
+	.mp-work:nth-child(2){
+		width: 45%;
+		left: auto;
+		right: 3%;
+	}
+	
+	#more-works {
+		right: 3%;
+		min-width: 20px;
+		line-height: 34px;
+	}
+	
+	#more-works a {
+		font-size: 0.9em;
+		
+	}
+	
+	#main-portfolio-caption {
+		left: 3%;
+		font-size: 1.2em;
+	}
+}
+
+
+@media screen and (max-width: 480px) {
+	 .mp-works {
+		width: 100%;
+	}	
+	
+	#more-works {
+		right: 5%;
+	}
+	
+     .mp-work:first-child {
+		min-width: 90%;
+		 left: 5%;
+	}
+	
+	.mp-work:nth-child(2){
+		display: none;
+	}
+	
+	
+	
+	#main-portfolio-caption {
+		left: 5%;
+	}
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

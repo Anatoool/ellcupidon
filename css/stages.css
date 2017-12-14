@@ -1,0 +1,96 @@
+#stages {
+	width: 100%;
+	position: relative;
+	background: #ececec;
+	color: #000000;
+	max-width: 800px;	
+	margin-left: auto;
+	margin-right: auto;	
+	text-align: center;
+	
+}
+
+.stages-caption {
+	color: #021415;
+	width: 100%;	
+	font-family: Verdana, Tahoma;	
+	font-size: 1.5em;	
+	text-align: center;
+	line-height: 1.5em;
+	float: left;
+	margin-top: 15px;
+}
+
+.stages-top, .stages-bottom {
+	margin: auto;
+	height: auto;
+	
+}
+
+.stages-top {
+	width: 100%;	
+	float: left;
+	margin-top: 15px;
+}
+
+.stages-bottom {
+	width: 75%;
+	margin-top: 25px;
+	float: left;
+	margin-left: 12.5%;
+}
+
+.stages-top .stage-container {
+	width: 25%;
+	float: left;
+	overflow: hidden;
+}
+
+.stages-bottom .stage-container {
+	width: 33%;
+	float: left;
+}
+
+.stage-img {
+	max-width: 120px;
+	position: relative;
+}
+
+.stage-description {
+	color: #535861;
+	margin-top: 15px;
+	font-size: 1.03em;
+	font-family: Comic Sans MS, arial;
+	text-align: center;
+	margin: auto;
+	width: 90%;
+}
+
+@media screen and (max-width: 600px) {
+	
+	.stages-top, .stages-bottom {
+		margin-top: 8px;
+	}
+	
+	.stage-description {
+		font-size: 0.9em;
+		width: 95%;
+		line-height: 0.9em;
+	}
+	
+	.stage-img {
+		max-width: 100px;
+	}
+}
+
+@media screen and (max-width: 490px) {
+	.stage-description {
+		font-size: 0.7em;
+		line-height: 1.1em;
+		
+	}
+	
+	.stage-img {
+		max-width: 70px;
+	}
+}

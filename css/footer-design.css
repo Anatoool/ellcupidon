@@ -1,0 +1,124 @@
+@font-face {
+    font-family: Asphaltic;
+    src: url(../fonts/Asphaltic.otf);
+}
+
+#footer {
+	height: 74px;
+	background: url(../img/about_us_bg.png);
+	margin-top: 13px;
+	box-shadow: 0 0 5px rgba(0,0,0,0.4);
+}
+
+.SN-wrapper {
+	display: inline-block;
+	margin: auto auto;
+}
+
+
+#SN-caption {
+	color: #5c5c5c;
+	line-height: 70px;
+	font-size: 1.5em;
+	font-family: Asphaltic;	
+	float: left;
+	display: inline-block;
+	margin-left: 15px;
+}
+
+.SN-container {
+	float: left;
+	margin-left: 20px;
+	line-height: 70px;
+	color: #525252;
+	font-size: 1.05em;
+	font-family: Trebuchet MS1, Helvetica, sans-serif;
+}
+
+.SN-icon {
+	height: 46px;
+	width: 46px;
+	margin-top: 12px;
+	float: left;	
+}
+
+#inst-icon {
+	height: 40px;
+	width: 40px;
+	margin-top: 15px;
+	margin-right: 5px;
+}
+
+@media screen and (max-width: 860px) {
+  
+   #footer {
+		height: 50px;
+		margin-top: 10px;
+	   	overflow: hidden;
+	}
+    
+	#SN-caption {
+		line-height: 50px;
+		font-size: 1.3em;		
+	}
+	
+	.SN-container {
+		line-height: 50px;
+		font-size: 1em;
+	}
+	
+	.SN-icon {
+		height: 36px;
+		width: 36px;
+		margin-top: 7px;
+	}
+	
+		#inst-icon {
+		height: 32px;
+		width: 32px;
+		margin-top: 9px;
+		margin-right: 5px;
+	}
+}
+
+@media screen and (max-width: 700px) {
+    
+	#SN-caption {
+		font-size: 1.1em;		
+	}
+	
+	.SN-container {
+		margin-left: 10px;		
+		font-size: 0.8em;
+		font-family: Trebuchet MS1, Helvetica, sans-serif;
+	}
+	
+	.SN-icon {
+		height: 30px;
+		width: 30px;
+		margin-top: 10px;	
+	}
+	
+	#inst-icon {
+		height: 28px;
+		width: 28px;
+		margin-top: 11px;
+		margin-right: 5px;
+	}
+}
+
+@media screen and (max-width: 570px) {
+	
+    .none1{
+		display: none;
+	}
+	
+}
+
+@media screen and (max-width: 405px) {
+	
+    .none2{
+		display: none;
+	}
+	
+}

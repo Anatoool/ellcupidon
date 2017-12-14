@@ -1,0 +1,139 @@
+#services {
+	min-height: 370px;
+	width: 100%;
+	position: relative;
+	border-top: solid 1px #d0d0d0;
+	border-bottom: solid 1px #8a9098;
+	padding-top: 30px;
+	position: relative;
+}
+
+#services-caption {
+	height: 50px;
+	width: 15%;
+	min-width: 150px;
+	background: url("../img/services-caption-bg.png");
+	border: solid 1px #c2d4e2;
+	border-radius: 5px 5px 25px 25px;
+	margin: 0 auto;
+	margin-top: -45px;
+	text-shadow: black 1px 1px 5px;
+}
+
+#services-caption span {
+	vertical-align: middle;
+	line-height: 50px;
+	color: #ffffff;
+	font-size: 1.35em;
+	font-family: Trebuchet MS, sans-serif;
+}
+
+#services-wrapper {
+	width: 80%;
+	margin-left: 10%;
+	min-height: 370px;
+}
+
+.service-container {
+	width: 25%;
+	float: right;
+}
+
+.service-img {
+	position: relative;
+	height: 120px;
+	margin: auto;
+	width: 120px;
+	display: block;
+	margin-top: 20px;
+}
+
+#service-img1 {	
+	background: url("../img/izgotovl.png");
+}
+
+#service-img2 {	
+	background: url("../img/eskiz.png");
+}
+
+#service-img3 {
+	background: url("../img/viezd.png");
+}
+
+#service-img4 {
+	background: url("../img/goroda.png");
+}
+
+.service-caption {
+	color: #535861;
+	font-family: Comic Sans MS, arial;
+	font-size: 1.36em;
+	position: relative;
+}
+
+.service-description {
+	color: #535861;
+	margin-top: 20px;
+	font-size: 1.03em;
+	font-family: Trebuchet MS, arial;
+	text-align: center;
+	margin: auto;
+	margin-bottom: 15px;
+	width: 80%;
+}
+
+/*Адаптивность*/
+
+@media screen and (max-width: 1024px) {
+    #services-wrapper {
+		width: 90%;
+		margin-left: 5%;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	.service-container {
+		width: 49%;
+	} 
+	
+	#services-wrapper {
+		width: 90%;
+		margin-left: 5%;
+	}
+	
+	.service-caption {
+		font-size: 1.1em;
+	}
+	
+	#services-caption {
+		width: 15%;
+		height: 40px;
+		min-width: 150px;
+	}
+	
+	#services-caption span {
+		font-size: 1.1em;
+		line-height: 40px;
+	}
+	
+	.service-description {
+		font-size: 0.9em;
+		width: 85%;
+	}
+     
+}
+
+@media screen and (max-width: 530px) {
+      #services-caption span {
+		font-size: 0.9em;
+		line-height: 34px;
+		  
+	}
+	
+	#services-caption {
+		width: 15%;
+		height: 34px;
+		min-width: 110px;
+		margin-top: -39px;
+	}
+}

@@ -1,0 +1,122 @@
+#user-name {
+	top: 100px;
+}
+
+#notification {
+	color: #000000;	
+	text-align: center;
+	margin-top: 150px;	
+}
+
+#files-upload {
+	margin-top: 80px;
+	position: relative;
+	float: left;
+	width: 100%;
+}
+
+.form-wrapper{
+	width: 50%;
+	margin: 0 auto;
+	margin-top: 80px;
+	display: block;
+	color: #000000;
+	border: solid 1px #a0a0a0;
+	padding: 20px;
+	padding-top: 8px;
+	padding-bottom: 15px;
+	border-radius: 4px;
+	box-shadow: 1px 2px 12px rgba(0,0,0,0.5);
+}
+
+#upload-caption {
+
+}
+
+.add-project b {
+	font-weight: normal;
+	line-height: 40px;
+}
+
+#radio-design {
+	margin-left: 15px;
+}
+
+#upload-caption {
+	font-size: 1.5em;
+}
+
+#radio-caption {
+	display: block;
+	margin-top: 10px;
+}
+
+.mini-caption {
+	margin-top: 14px;
+	font-size: 1.2em;
+	margin-bottom: 4px;
+}
+
+label {
+	font-size: 1.05em;
+}
+
+#name, #youtube {
+	width: 70%;
+	height: 26px;
+	font-size: 1.1em;
+	border: solid 1px #909090;
+	border-radius: 3px;
+}
+
+#description {
+	width: 100%;
+	font-size: 1.2em;
+	height: 150px;
+}
+
+
+#send-button {
+	width: 120px;
+	height: 35px;
+	margin-top: 30px;
+	font-size: 1em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,198 @@
+#log_in_form {
+	margin: auto;
+	margin-top: 100px;
+	max-width: 300px;
+	width: 40%;
+	position: relative;
+}
+
+#log_in_form p {
+	color: #000000;
+	font-size: 1.1em;
+	margin-top: 7px;
+}
+
+#log_in_form input {
+    height: 30px;
+    width: 300px;
+    font-size: 1.3em;
+	margin: auto;
+}
+
+#login a {
+    color: #454545;
+    float: right;
+    text-decoration: none;
+    position: absolute;
+    bottom: 3px;
+    right: 3%;
+    font-size: 1.1em;
+    z-index: 100;
+}
+
+#sign_up:hover {
+    color: #b78618;
+}
+
+#login_answer {
+    float: right;
+    color: red;
+	width: 100%;
+    font-family: nexa sans-serif;
+    font-size: 1.15em;
+   	position: absolute;
+    top: 170px;
+	left: 0;
+	display: none;
+}
+
+#login_button {
+  max-width: 90px;
+    width: 25%;
+    height: 30px;
+    margin-top: 15px;
+    font-size: 1em;
+    font-weight: bold;
+    color: #3a3a3a;
+}
+
+#user-name {
+	position: absolute;
+	right: 50px;
+	color: #000000;
+	top: 20px;
+	z-index: 100;
+}
+
+#user-name a:hover {
+	color: #3e5bd6;
+}
+
+#add {
+	margin-top: 80px;
+	height: 100px;
+	width: 100%;	
+	position: relative;
+}
+
+#add a {
+	text-decoration: none;
+}
+
+.add-project {
+	background: #2190c1;
+	width: 170px;
+	height: 40px;
+	margin-top: 30px;
+	margin-left: 50px;
+	text-align: center;
+	border-radius: 3px;
+	color: #ffffff;	
+	line-height: 18px;
+	float: left;
+	padding-right: 5px;
+}
+
+.add-project:last-child {
+	width: 185px;
+}
+
+.add-project:hover {
+	color: #f9f5d2;
+	background: #f98561;
+}
+
+.add-project span {
+	line-height: 40px;
+	float: left;
+	padding-left: 10px;
+	padding-right: 3px;
+	font-size: 1.3em;
+	font-weight: bold;
+}
+
+
+/*Удаление проектов*/
+
+#delete {
+	float: left;
+	width: 100%;
+}
+
+.form-wrapper{
+	width: 50%;
+	margin: 0 auto;
+	margin-top: 10px;
+	display: block;
+	color: #000000;
+	border: solid 1px #a0a0a0;
+	padding: 20px;
+	padding-top: 8px;
+	padding-bottom: 15px;
+	border-radius: 4px;
+	box-shadow: 1px 2px 12px rgba(0,0,0,0.5);
+}
+
+#radio-design {
+	margin-left: 15px;
+}
+
+#upload-caption {
+	font-size: 1.5em;
+}
+
+#radio-caption {
+	display: block;
+	margin-top: 10px;
+}
+
+.mini-caption {
+	margin-top: 14px;
+	font-size: 1.2em;
+	margin-bottom: 4px;
+}
+
+label {
+	font-size: 1.05em;
+}
+
+#number {
+	width: 70%;
+	height: 26px;
+	font-size: 1.1em;
+	border: solid 1px #909090;
+	border-radius: 3px;
+}
+
+
+#send-button {
+	width: 110px;
+	height: 35px;
+	margin-top: 14px;
+	font-size: 1em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
